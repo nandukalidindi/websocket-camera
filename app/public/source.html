@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created for testing Webcam video streaming using Websockets"
+    />
+    <title>Websocket Camera</title>
+  </head>
+  <body>
+    <video autoplay></video>
+    <script>
+        const video = document.querySelector('video');
+
+        const constraints = { video: true };
+        
+        navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+          video.srcObject = stream
+        });              
+    </script>
+  </body>
+</html>

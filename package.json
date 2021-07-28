@@ -1,0 +1,26 @@
+{
+  "name": "websocket-camera",
+  "version": "1.0.0",
+  "description": "Webcam to send live image feed",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandukalidindi/websocket-camera.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Nandu Kalidindi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandukalidindi/websocket-camera/issues"
+  },
+  "homepage": "https://github.com/nandukalidindi/websocket-camera#readme"
+}
