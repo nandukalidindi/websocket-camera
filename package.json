@@ -4,7 +4,8 @@
   "description": "Webcam to send live image feed",
   "main": "server.js",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "ws": "7.5.3"
   },
   "scripts": {
     "start": "node server.js",

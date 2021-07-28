@@ -12,14 +12,6 @@
   </head>
   <body>
     <video autoplay></video>
-    <script>
-        const video = document.querySelector('video');
-
-        const constraints = { video: true };
-        
-        navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
-          video.srcObject = stream
-        });              
-    </script>
+    <script type="text/javascript" src="/js/source.js"></script>
   </body>
 </html>
